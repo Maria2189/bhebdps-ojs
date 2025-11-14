@@ -1,3 +1,4 @@
+
 describe("About Control Structures (about_control_structures.js)", function(){
   it("if", function() {
     let isPositive = false;
@@ -6,7 +7,7 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // каково значение переменной isPositive?
-    expect(FILL_ME_IN).toBe(isPositive);
+    expect(true).toBe(isPositive);
   });
 
   it("for", function() {
@@ -16,7 +17,7 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // каково значение счетчика?
-    expect(FILL_ME_IN).toBe(counter);
+    expect(16).toBe(counter);
   });
 
   it("for in", function() {
@@ -32,15 +33,15 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // Какое значение получится в результате?
-    expect(FILL_ME_IN).toBe(result);
+    expect('nameage').toBe(result);
   });
 
   it("ternary operator", function() {
     let fruit = true ? "apple" : "orange";
-    expect(FILL_ME_IN).toBe(fruit, 'what is the value of fruit?');
+    expect('apple').toBe(fruit, 'what is the value of fruit?');
 
     fruit = false ? "apple" : "orange";
-    expect(FILL_ME_IN).toBe(fruit, 'now what is the value of fruit?');
+    expect('orange').toBe(fruit, 'now what is the value of fruit?');
   });
 
   it("switch", function() {
@@ -55,7 +56,7 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // Какое значение получится в результате?
-    expect(FILL_ME_IN).toBe(result);
+    expect(2).toBe(result);
   });
 
   it("switch default case", function() {
@@ -73,13 +74,13 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // Какое значение получится в результате?
-    expect(FILL_ME_IN).toBe(result);
+    expect('Merry').toBe(result);
   });
 
   it("null coalescing", function() {
     let result = null || "a value";
 
     // Какое значение получится в результате?
-    expect(FILL_ME_IN).toBe(result);
+    expect('a value').toBe(result);
   });
 });
